@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "255449229119",
+    "project_id": "fir-memo-app-f6afe",
+    "storage_bucket": "fir-memo-app-f6afe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255449229119:android:b12d6b9b2ad4cf9f90d58a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_demo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUMjxRYUMDM8dL8RpTvBtgD8fkpZTyaVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255449229119:android:78b6f3773142c12190d58a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUMjxRYUMDM8dL8RpTvBtgD8fkpZTyaVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
