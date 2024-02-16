@@ -1,10 +1,14 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 class Memo {
+  String id;
   String title;
   String detail;
-  DateTime createdDate;
-  DateTime? updatedDate;
+  Timestamp createdDate;
+  Timestamp? updatedDate;
 
   Memo({
+    required this.id,
     required this.title,
     required this.detail,
     required this.createdDate,
@@ -14,8 +18,9 @@ class Memo {
 
 void test() {
   Memo newMemo = Memo(
+    id: 'id',
     title: 'title',
     detail: 'detail',
-    createdDate: DateTime.now(),
+    createdDate: Timestamp.now(),
   );
 }
